@@ -1,0 +1,366 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    letter-spacing: 1.2px;
+    font-family: 'Roboto', sans-serif;
+}
+:root
+{
+    --primary-color:#eb5757;
+    --secondary-color:#222;
+    --light-color:#f9f9f9;
+    --dark-color:#333;
+}
+/*Estilos header*/
+header
+{
+    width: 100%;
+    height: 150px;
+    background-color: var(--primary-color);
+}
+header .seccion-covid
+{
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: var(--light-color);
+    background-color: var(--secondary-color);
+}
+header .seccion-covid button
+{
+    width: 140px;
+    height: 35px;
+    border-radius: 18px;
+    border: none;
+    background-color: var(--primary-color);
+    color: var(--light-color);
+    cursor: pointer;
+}
+header .seccion-covid p
+{
+    font-size: 18px;
+}
+header .menu
+{
+    width: 100%;
+    height: 75px;
+    padding: 0 170px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--light-color);
+}
+header .menu div
+{
+    width: 600px;
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .menu div a
+{
+    height: 35px;
+    width: 75px;
+    padding-top: 8px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    color: var(--light-color);
+    display: inline-block;
+    transition: all 0.5s ease;
+}
+header .menu div a:hover
+{
+    background-color: var(--secondary-color);
+}
+header .menu div button
+{
+    width: 45px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: var(--secondary-color);
+    background-size: 60%;
+    background-position: center;
+    border: none;
+    position: relative;
+}
+header .menu div button i
+{
+    color: white;
+}
+header .menu div button span
+{
+    width: 20px;
+    height: 20px;
+    padding-top: 2px;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    top: -10px;
+    left: 35px;
+    text-align: center;
+    color: var(--dark-color);
+    background-color: var(--light-color);
+}
+/*Estilos seccion 1 (FINALIZADO)*/
+main .seccion1
+{
+    width: 100%;
+    height: 560px;
+    background-image: url("../img/man-2425121.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-left: 90px;
+}
+main .seccion1 h1
+{
+    font-size: 60px;
+    color: var(--light-color);
+    padding-top: 80px;
+    padding-bottom: 10px;
+}
+main .seccion1 p
+{
+    color: var(--light-color);
+    padding-bottom: 20px;
+}
+main .seccion1 a button
+{
+    font-size: 14px;
+    width: 130px;
+    height: 30px;
+    color: var(--light-color);
+    font-weight: bold;
+    border: 1px solid var(--light-color);
+    background-color: rgba(250, 250, 250, 0);
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+main .seccion1 button:hover
+{
+    background-color: rgba(250, 250, 250, 1);
+    color: var(--dark-color);
+}
+/*Estilos seccion 2 (FINALIZADO)*/
+main .seccion2
+{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 50px;
+}
+main .seccion2 .info-business
+{
+    padding-top: 55px;
+    padding-bottom: 60px;
+}
+main .seccion2 .info-business .parrafo1
+{
+    font-size: 13px;
+    color: var(--dark-color);
+    padding-bottom: 25px;
+}
+main .seccion2 .info-business h2
+{
+    font-size: 26px;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+main .seccion2 .info-business .parrafo2
+{
+    color: var(--dark-color);
+}
+main .seccion2 div article
+{
+    width: 250px;
+    height: 150px;
+    text-align: justify;
+    display: inline-block;
+    margin: 0px 28px;
+}
+main .seccion2 div article i
+{
+    font-size: 35px;
+    color: var(--primary-color);
+    padding-bottom: 20px;
+}
+main .seccion2 div article h3
+{
+    font-weight: bold;
+    font-size: 21px;
+    padding-bottom: 10px;
+}
+main .seccion2 div article p
+{
+    font-size: 15px;
+}
+/*Estilos seccion3 (FINALIZADO)*/
+main .seccion3
+{
+    width: 100%;
+    padding: 60px 0px;
+}
+main .seccion3 span img
+{
+    position: absolute;
+}
+main .seccion3 span img
+{
+    width: 500px;
+    height: 640px;
+    object-fit: cover;
+    border-radius: 5px;
+    left: 70px;
+    margin-top: 30px;
+}
+main .seccion3 div
+{
+    width: 800px;
+    height: 700px;
+    background-color: var(--secondary-color);
+    text-align: justify;
+    color: var(--light-color);
+    border-radius: 5px;
+    padding: 90px 0px 0px 190px;
+    margin-left: 450px;
+}
+main .seccion3 div h2
+{
+    font-size: 28px;
+    padding-bottom: 20px;
+}
+main .seccion3 div p
+{
+    font-size: 15px;
+}
+/*Estilos seccion 4 (FINALIZADO)*/
+main .seccion4
+{
+    width: 100%;
+    text-align: center;
+    padding: 60px 0px;
+}
+main .seccion4 article
+{
+    width: 440px;
+    text-align: center;
+    display: inline-block;
+    margin: 0px 80px;
+}
+main .seccion4 article img
+{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+main .seccion4 article h3
+{
+    font-size: 21px;
+    color: var(--secondary-color);
+}
+main .seccion4 article p
+{
+    font-size: 15px;
+    color: var(--dark-color);
+}
+/*Estilos footer*/
+footer
+{
+    width: 100%;
+    height: 600px;
+    background-image: url("../img/lagoon-4812995.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+footer .caja-need
+{
+    padding-left: 100px;
+    padding-top: 170px;
+}
+footer .caja-need h2
+{
+    font-size: 53px;
+    color: var(--light-color);
+    padding-bottom: 25px;
+}
+footer .caja-need p
+{
+    font-size: 15px;
+    color: var(--light-color);
+    padding-bottom: 30px;
+}
+footer .caja-need button
+{
+    font-size: 14px;
+    width: 180px;
+    height: 30px;
+    color: var(--light-color);
+    font-weight: bold;
+    border: 1px solid var(--light-color);
+    background-color: rgba(250, 250, 250, 0);
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+footer .caja-need button:hover
+{
+    background-color: rgba(250, 250, 250, 1);
+    color: var(--secondary-color);
+}
+footer .caja-redes
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+}
+footer .caja-redes span
+{
+    margin-left: 100px;
+    margin-top: 50px;
+}
+footer .caja-redes span a
+{
+    text-decoration: none;
+    font-style: none;
+    color: white;
+    font-size: 12px;
+}
+footer .caja-redes .redes
+{
+    margin-right: 60px;
+    margin-top: 70px;
+}
+footer .caja-redes .redes a
+{
+    text-decoration: none;
+    font-style: none;
+    color: white;
+    font-size: 32px;
+    margin-right: 20px;
+    transition: all 0.3s ease;
+}
+footer .caja-redes .redes a:hover
+{
+    color: rgba(250, 250, 250, 0.6);
+}
+footer .parrafo-made
+{
+    font-size: 11px;
+    text-align: center;
+    margin-top: 50px;
+}
+footer .parrafo-made a
+{
+    text-decoration: none;
+    color: var(--primary-color);
+}

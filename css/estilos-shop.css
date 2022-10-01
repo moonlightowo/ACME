@@ -1,0 +1,327 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    letter-spacing: 1.2px;
+    font-family: 'Roboto', sans-serif;
+}
+:root
+{
+    --primary-color:#eb5757;
+    --secondary-color:#222;
+    --light-color:#f9f9f9;
+    --dark-color:#333;
+}
+/*Estilos seccion 1 (FINALIZADO)*/
+main .seccion1
+{
+    width: 100%;
+    height: 120px;
+    background-color: var(--secondary-color);
+    padding-top: 40px;
+    padding-left: 90px;
+}
+main .seccion1 h1
+{
+    color: var(--light-color);
+    font-size: 35px;
+}
+/*Estilos seccion 2 (FINALIZADO)*/
+main .seccion2
+{
+    width: 100%;
+    padding: 60px 90px;
+}
+main .seccion2 article
+{
+    width: 100%;
+    height: 300px;
+    background-image: url("../img/north-4756774.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: right;
+}
+main .seccion2 article button
+{
+    width: 150px;
+    height: 30px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+    margin: 20px 20px 0px 0px;
+    cursor: pointer;
+}
+main .seccion2 article h4
+{
+    text-align: left;
+    color: var(--light-color);
+    font-size: 22px;
+    padding: 180px 0px 10px 20px;
+}
+main .seccion2 article p
+{
+    text-align: left;
+    color: var(--light-color);
+    font-size: 13px;
+    padding-left: 20px;
+}
+/*Estilos seccion 3*/
+main .seccion3
+{
+    width: 100%;
+    padding-bottom: 90px;
+}
+main .seccion3 article
+{
+    display: inline-block;
+}
+main .seccion3 .article-buttons
+{
+    width: 200px;
+    margin-left: 90px;
+    position: relative;
+    bottom: 779px;
+}
+main .seccion3 .article-buttons p
+{
+    font-size: 16px;
+    font-weight: bold;
+    color: var(--dark-color);
+    padding-bottom: 10px;
+}
+main .seccion3 .article-buttons button
+{
+    width: 200px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 25px;
+    margin-bottom: 5px;
+    color: var(--dark-color);
+    background-color: var(--light-color);
+    border: 1px solid var(--secondary-color);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+main .seccion3 .article-buttons button:hover
+{
+    background-color: var(--secondary-color);
+    color: var(--light-color);
+}
+main .seccion3 .article-articles
+{
+    text-align: center;
+    width: 70%;
+    margin-left: 20px;
+}
+main .seccion3 .article-articles article
+{
+    width: 300px;
+    display: inline-block;
+    margin: 5px;
+}
+main .seccion3 .article-articles .article-complicado
+{
+    margin-right: 635px;
+}
+main .seccion3 .article-articles article span img
+{
+    width: 100%;
+    height: 390px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+main .seccion3 .article-articles article span .boton-superior
+{
+    display: inline-block;
+    position: absolute;
+    right: 105px;
+    margin-top: 10px;
+}
+main .seccion3 .article-articles article h4
+{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+main .seccion3 .article-articles article p
+{
+    font-size: 12px;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+main .seccion3 .article-articles article p span
+{
+    color: var(--primary-color);
+    text-decoration: line-through;
+}
+main .seccion3 .article-articles article button
+{
+    width: 100px;
+    height: 30px;
+    background-color: var(--primary-color);
+    color: var(--light-color);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+main .seccion3 .article-articles article button:hover
+{
+    background-color: var(--secondary-color);
+}
+/*Estilos header (FINALIZADO)*/
+header
+{
+    width: 100%;
+    height: 150px;
+    background-color: var(--primary-color);
+}
+header .seccion-covid
+{
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: var(--light-color);
+    background-color: var(--secondary-color);
+}
+header .seccion-covid button
+{
+    width: 140px;
+    height: 35px;
+    border-radius: 18px;
+    border: none;
+    background-color: var(--primary-color);
+    color: var(--light-color);
+}
+header .seccion-covid p
+{
+    font-size: 18px;
+}
+header .menu
+{
+    width: 100%;
+    height: 75px;
+    padding: 0 170px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--light-color);
+}
+header .menu div
+{
+    width: 600px;
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .menu div a
+{
+    height: 35px;
+    width: 75px;
+    padding-top: 8px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    color: var(--light-color);
+    display: inline-block;
+    transition: all 0.5s ease;
+}
+header .menu div a:hover
+{
+    background-color: var(--secondary-color);
+}
+header .menu div button
+{
+    width: 45px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: var(--secondary-color);
+    background-size: 60%;
+    background-position: center;
+    border: none;
+    position: relative;
+}
+header .menu div button i
+{
+    color: white;
+}
+header .menu div button span
+{
+    width: 20px;
+    height: 20px;
+    padding-top: 2px;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    top: -10px;
+    left: 35px;
+    text-align: center;
+    color: var(--dark-color);
+    background-color: var(--light-color);
+}
+/*Estilos footer (FINALIZADO)*/
+footer
+{
+    width: 100%;
+    height: 190px;
+    background-color: var(--secondary-color);
+    color: white;
+}
+footer div
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer div span
+{
+    margin-left: 100px;
+    margin-top: 50px;
+}
+footer div span a
+{
+    text-decoration: none;
+    font-style: none;
+    color: white;
+    font-size: 12px;
+}
+footer div .redes
+{
+    margin-right: 60px;
+    margin-top: 70px;
+}
+footer div .redes a
+{
+    text-decoration: none;
+    font-style: none;
+    color: white;
+    font-size: 32px;
+    margin-right: 20px;
+    transition: all 0.3s ease;
+}
+footer div .redes a:hover
+{
+    color: rgba(250, 250, 250, 0.6);
+}
+footer p
+{
+    font-size: 11px;
+    text-align: center;
+    margin-top: 50px;
+}
+footer p a
+{
+    text-decoration: none;
+    color: var(--primary-color);
+}

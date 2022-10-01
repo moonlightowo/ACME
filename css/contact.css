@@ -1,0 +1,329 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    letter-spacing: 1.2px;
+    font-family: 'Roboto', sans-serif;
+}
+:root
+{
+    --primary-color:#eb5757;
+    --secondary-color:#222;
+    --light-color:#f9f9f9;
+    --dark-color:#333;
+}
+/*Estilos header*/
+header
+{
+    width: 100%;
+    height: 150px;
+    background-color: var(--primary-color);
+}
+header .seccion-covid
+{
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: var(--light-color);
+    background-color: var(--secondary-color);
+}
+header .seccion-covid button
+{
+    width: 140px;
+    height: 35px;
+    border-radius: 18px;
+    border: none;
+    background-color: var(--primary-color);
+    color: var(--light-color);
+    cursor: pointer;
+}
+header .seccion-covid p
+{
+    font-size: 18px;
+}
+header .menu
+{
+    width: 100%;
+    height: 75px;
+    padding: 0 170px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--light-color);
+}
+header .menu div
+{
+    width: 600px;
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .menu div a
+{
+    height: 35px;
+    width: 75px;
+    padding-top: 8px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    color: var(--light-color);
+    display: inline-block;
+    transition: all 0.5s ease;
+}
+header .menu div a:hover
+{
+    background-color: var(--secondary-color);
+}
+header .menu div button
+{
+    width: 45px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: var(--secondary-color);
+    background-size: 60%;
+    background-position: center;
+    border: none;
+    position: relative;
+}
+header .menu div button i
+{
+    color: white;
+}
+header .menu div button span
+{
+    width: 20px;
+    height: 20px;
+    padding-top: 2px;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    top: -10px;
+    left: 35px;
+    text-align: center;
+    color: var(--dark-color);
+    background-color: var(--light-color);
+}
+/*Estilos seccion1 (Finalizado)*/
+main .seccion1
+{
+    width: 100%;
+    height: 560px;
+    background-image: url("../img/glasses-1052023.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 50px;
+    padding-left: 100px;
+}
+main .seccion1 h1
+{
+    font-weight: bold;
+    font-size: 35px;
+    color: var(--light-color);
+    padding-bottom: 30px;
+}
+main .seccion1 article
+{
+    width: 320px;
+    background-color: var(--light-color);
+    text-align: center;
+    border-radius: 5px;
+    margin-right: 10px;
+    display: inline-block;
+}
+main .seccion1 article i
+{
+    font-size: 38px;
+    color: var(--primary-color);
+    padding-top: 35px;
+    padding-bottom: 45px;
+}
+main .seccion1 article h3
+{
+    color: var(--secondary-color);
+    font-size: 28px;
+    padding-bottom: 10px;
+}
+main .seccion1 article p
+{
+    color: var(--dark-color);
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+main .seccion1 article button
+{
+    width: 180px;
+    height: 35px;
+    font-size: 13px;
+    font-weight: bold;
+    background-color: var(--primary-color);
+    color: var(--light-color);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 40px;
+    transition: all 0.3s ease;
+}
+main .seccion1 article button:hover
+{
+    background-color: var(--secondary-color);
+    color: var(--light-color);
+}
+/*Estilos seccion2*/
+main .seccion2
+{
+    width: 100%;
+    padding: 90px 0px 90px 80px;
+}
+main .seccion2 article
+{
+    display: inline-block;
+}
+main .seccion2 .article-info
+{
+    width: 280px;
+    margin-right: 90px;
+    position: relative;
+    bottom: 154px;
+}
+main .seccion2 .article-info h3
+{
+    font-size: 27px;
+    padding-bottom: 10px;
+}
+main .seccion2 .article-info .parrafo-inicial
+{
+    color: var(--dark-color);
+    font-size: 13px;
+    padding-bottom: 50px;
+}
+main .seccion2 .article-info div
+{
+    display: inline-block;
+}
+main .seccion2 .article-info .div-text
+{
+    font-size: 14px;
+    color: var(--secondary-color);
+    font-weight: bold;
+}
+main .seccion2 .article-info .div-numbers
+{
+    font-size: 14px;
+    color: var(--secondary-color);
+}
+main .seccion2 .article-form form h3
+{
+    font-size: 27px;
+    padding-bottom: 10px;
+}
+main .seccion2 .article-form form
+{
+    width: 790px;
+}
+main .seccion2 .article-form form .parrafo
+{
+    font-size: 14px;
+    color: var(--dark-color);
+    padding-bottom: 15px;
+}
+main .seccion2 .article-form form .label
+{
+    font-size: 15px;
+    color: var(--dark-color);
+    padding-bottom: 5px;
+}
+main .seccion2 .article-form form input
+{
+    width: 755px;
+    font-size: 12px;
+    padding: 10px 10px 10px 10px;
+    border: 1px solid var(--secondary-color);
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+main .seccion2 .article-form form .input-grande
+{
+    padding: 10px 10px 30px 10px;
+}
+main .seccion2 .article-form form input:hover
+{
+    border: 1px solid var(--primary-color);
+}
+main .seccion2 .article-form form button
+{
+    width: 100px;
+    height: 35px;
+    font-size: 14px;
+    font-weight: bold;
+    color: var(--light-color);
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+main .seccion2 .article-form form button:hover
+{
+    background-color: var(--secondary-color);
+}
+/*Estilos del footer (FINALIZADO)*/
+footer
+{
+    width: 100%;
+    height: 190px;
+    background-color: var(--secondary-color);
+    color: white;
+}
+footer div
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer div span
+{
+    margin-left: 100px;
+    margin-top: 50px;
+}
+footer div span a
+{
+    text-decoration: none;
+    font-style: none;
+    color: white;
+    font-size: 12px;
+}
+footer div .redes
+{
+    margin-right: 60px;
+    margin-top: 70px;
+}
+footer div .redes a
+{
+    text-decoration: none;
+    font-style: none;
+    color: white;
+    font-size: 32px;
+    margin-right: 20px;
+    transition: all 0.3s ease;
+}
+footer div .redes a:hover
+{
+    color: rgba(250, 250, 250, 0.6);
+}
+footer p
+{
+    font-size: 11px;
+    text-align: center;
+    margin-top: 50px;
+}
+footer p a
+{
+    text-decoration: none;
+    color: var(--primary-color);
+}
